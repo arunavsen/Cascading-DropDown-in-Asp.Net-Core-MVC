@@ -12,5 +12,7 @@ namespace Cascading_DropDown.Models
         {
         }
 
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<Subcategory> Subcategories { get; set; }
     }
 }
